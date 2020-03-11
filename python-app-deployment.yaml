@@ -20,7 +20,7 @@ spec:
         name: python-app
     spec:
       containers:
-      - image: 10.81.1.68:5000/python_app:0.5
+      - image: 10.81.1.68:5000/python-app:0.5
         name: python-app
         ports:
         - containerPort: 8002
