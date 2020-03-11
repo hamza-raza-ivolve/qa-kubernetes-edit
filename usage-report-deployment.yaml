@@ -21,7 +21,7 @@ spec:
         name: usage-report
     spec:
       containers:
-      - image: 10.81.1.68:5000/usage_report:1
+      - image: 10.81.1.68:5000/usage-report:1
         name: usage-report
         ports:
         - containerPort: 8006
