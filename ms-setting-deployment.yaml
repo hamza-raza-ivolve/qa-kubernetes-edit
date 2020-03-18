@@ -29,27 +29,13 @@ spec:
         env:
         - name: NODE_ENV
           value: development
-        - name: ALLOWED_ORIGIN_IP
-          value: "10.81.1.68"
-        - name: OPENSTACK_KEYSTONE_URL
-          value: "http://10.81.1.10:5000/v3"
         - name: PORT
           value: "8005"
-      #ms-logger serice
-        - name: MS_LOGGER_IP
-          value: ms-logger
-        - name: MS_LOGGER_PORT
-          value: "8012"
-        - name: MS_LOGGER_SECRET_KEY
-          value: BC2B36B81AB89F3B83AD227DCAD56
-        - name: MS_LOGGER_THIS_SERVICE_NAME
-          value: ms-settings
-        - name: MS_LOGGER_THIS_SERVICE_IP
-          value: ms-settings
-        - name: MS_LOGGER_THIS_SERVICE_PORT
-          value: "8005"
-          
-      #restartPolicy: Always
+        - name: MONGODB_URI
+          value: mongodb://10.81.1.68:27017/ms-settings
+        - name: OpenstackRoutes
+          value: http://10.81.1.10:5000/v3
+        #restartPolicy: Always
   strategy:
      type: RollingUpdate
      rollingUpdate:
