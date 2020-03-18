@@ -33,7 +33,7 @@ spec:
         - name: RABBITMQ_USER
           value: guest
         - name: RABBITMQ_PASSWORD
-          value: 8zAO2YdalqOMdlgoxCALUshTp
+          value: 938Zm9No15LH4iv9Pw46EWHG3
         - name: NOTIFICATION_RECEIVER_IP
           value: usage-report:8006
         - name: EXCHANGE_NAME
