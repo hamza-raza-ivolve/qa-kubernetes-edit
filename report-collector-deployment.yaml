@@ -27,7 +27,7 @@ spec:
         imagePullPolicy: IfNotPresent
         env:
         - name: RABBITMQ_HOST
-          value: "10.81.104.87"
+          value: "172.16.3.113"
         - name: PORT
           value: "8099"
         - name: RABBITMQ_USER
