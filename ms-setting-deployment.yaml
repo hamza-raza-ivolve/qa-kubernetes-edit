@@ -6,8 +6,8 @@ metadata:
     kompose.version: 1.16.0 (0c01309)
   creationTimestamp: null
   labels:
-    io.kompose.service: iam
-  name: iam
+    io.kompose.service: ms-settings
+  name: ms-settings
 spec:
   replicas: 1
   selector:
