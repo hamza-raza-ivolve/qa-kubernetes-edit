@@ -46,6 +46,8 @@ spec:
           value: kms
         - name: MS_LOGGER_THIS_SERVICE_PORT
           value: "8010"
+        - name: LOG_TARGET
+          value: both
       #restartPolicy: Always
   strategy:
      type: RollingUpdate
