@@ -55,7 +55,7 @@ spec:
         - name: MS_LOGGER_THIS_SERVICE_PORT
           value: "8001"
         - name: LOG_TARGET
-          value: "both"
+          value: both
         - name: PRICING
           value: ms-settings:8005
          
