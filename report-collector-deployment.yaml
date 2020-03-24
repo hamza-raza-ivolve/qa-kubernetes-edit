@@ -49,8 +49,8 @@ spec:
           value: "8012"
         - name: MS_LOGGER_SECRET_KEY
           value: BC2B36B81AB89F3B83AD227DCAD56
-        #- name: MS_LOGGER_THIS_SERVICE_PORT
-         # value: "8012"
+        - name: LOG_TARGET
+          value: both
       #restartPolicy: Always
   strategy:
      type: RollingUpdate
