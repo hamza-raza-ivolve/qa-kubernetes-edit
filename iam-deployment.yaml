@@ -48,6 +48,8 @@ spec:
           value: iam
         - name: MS_LOGGER_THIS_SERVICE_PORT
           value: "8003"
+        - name: LOG_TARGET
+          value: both
           
       #restartPolicy: Always
   strategy:
