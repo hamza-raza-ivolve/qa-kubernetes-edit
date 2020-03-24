@@ -34,7 +34,7 @@ spec:
         - name: PROTOCOL
           value: http
         - name: MONASCA_IP
-          value: "http://10.81.1.62:8070"  
+          value: "http://10.81.1.56:8070"  
         - name: IAM_IP
           value: http://iam:8003
         - name: MONASCA_CPU_TIME
