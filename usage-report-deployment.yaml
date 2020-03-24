@@ -46,6 +46,8 @@ spec:
           value: "8009"
         - name: LOG_TARGET
           value: both
+        - name: MS_LOGGER_SECRET_KEY
+          value: BC2B36B81AB89F3B83AD227DCAD56
       #restartPolicy: Always
   strategy:
      type: RollingUpdate
