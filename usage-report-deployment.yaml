@@ -30,7 +30,7 @@ spec:
         - name: PORT
           value: "8006"
         - name: DB_LINK
-          value: mongodb://10.81.1.68:27017
+          value: mongodb://10.81.1.25:27017
           #ms-logger serice
         - name: MS_LOGGER_THIS_SERVICE_NAME
           value: usage-report
