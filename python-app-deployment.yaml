@@ -30,6 +30,12 @@ spec:
           value: "10.81.1.120"
         - name: KEY_STONE_PORT
           value: "5000"
+        - name: COMPUTE_PORT
+          value: "8774"
+        - name: NETWORK_PORT
+          value: "9696"
+        - name: VOLUME_PORT
+          value: "8776"
           #ms-logger serice
         - name: MS_LOGGER_THIS_SERVICE_NAME
           value: python-app
