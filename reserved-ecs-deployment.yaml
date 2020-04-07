@@ -30,7 +30,7 @@ spec:
         - name: PORT
           value: "8011"
         - name: MONGODB_URI
-          value: mongodb://10.81.1.25:27017/ms-reserve-ecs
+          value: mongodb://10.81.1.38:27017/ms-reserve-ecs
           #ms-logger serice
         - name: MS_LOGGER_THIS_SERVICE_NAME
           value: reserved-ecs
