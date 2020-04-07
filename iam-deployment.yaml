@@ -30,7 +30,7 @@ spec:
         - name: NODE_ENV
           value: development
         - name: ALLOWED_ORIGIN_IP
-          value: "10.81.1.25"
+          value: "10.81.1.38"
         - name: OPENSTACK_KEYSTONE_URL
           value: "http://10.81.1.120:5000/v3"
         - name: PORT
