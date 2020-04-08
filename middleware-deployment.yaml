@@ -29,19 +29,19 @@ spec:
         - name: NODE_ENV
           value: development
         - name: IAM
-          value: iam:8003
+          value: http://iam:8003
         - name: ORCHESTRATOR
-          value: python-app:8002
+          value: http://python-app:8002
         - name: USAGE_REPORT
-          value: usage-report:8006
+          value: http://usage-report:8006
         - name: EMAILER_BASEURL
           value: http://emailer:8009
         - name: PORT
           value: "8001"
         - name: KMS_BASEURL
-          value: kms:8010
+          value: http://kms:8010
         - name: RESERVE_ECS
-          value: reserved-ecs:8011
+          value: http://reserved-ecs:8011
         - name: MS_LOGGER_IP
           value: ms-logger
         - name: MS_LOGGER_PORT
@@ -57,7 +57,7 @@ spec:
         - name: LOG_TARGET
           value: both
         - name: PRICING
-          value: ms-settings:8005
+          value: http://ms-settings:8005
          
       #restartPolicy: Always
   strategy:
