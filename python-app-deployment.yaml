@@ -36,6 +36,8 @@ spec:
           value: "9696"
         - name: VOLUME_PORT
           value: "8776"
+        - name: GLANCE_PORT
+          value: "9292"
         - name: PROTOCOL
           value: http
           #ms-logger serice
