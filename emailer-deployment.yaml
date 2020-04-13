@@ -28,9 +28,9 @@ spec:
         imagePullPolicy: IfNotPresent
         env:
         - name: EMAIL
-          value: "testingservice9661@gmail.com"
+          value: "testingservice68@yahoo.com"
         - name: PASS
-          value: "!un)X6'4b]6d=K4G"
+          value: "miznwspuxwixzzlr"
         - name: TOMAIL
           value: "testingservice9661@gmail.com"
         - name: PORT
