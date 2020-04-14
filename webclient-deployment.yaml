@@ -32,17 +32,17 @@ spec:
         - name: BEFFE
           value: BEFFE
         - name: ORCH
-          value: python-app:8002
+          value: http://python-app:8002
         - name: IAM
-          value: iam:8003
+          value: http://iam:8003
         - name: API_GATEWAY
-          value: app.ivolve.io:30627
+          value: http://app.ivolve.io:30627
         - name: EMAILER
-          value: emailer:8009
+          value: http://emailer:8009
         - name: DEVELOPMENT_ENV
           value: "true"
         - name: MONITORING_SOCKET_IP
-          value: app.ivolve-monitoring.io:30627
+          value: http://app.ivolve-monitoring.io:30627
          
       #restartPolicy: Always
   strategy:
