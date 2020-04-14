@@ -55,8 +55,6 @@ spec:
           value: BC2B36B81AB89F3B83AD227DCAD56
         - name: LOG_TARGET
           value: both
-        - name: PRICING
-          value: ms-settings:8005
       #restartPolicy: Always
   strategy:
      type: RollingUpdate
