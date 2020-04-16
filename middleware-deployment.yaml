@@ -59,7 +59,7 @@ spec:
         - name: PRICING
           value: http://ms-settings:8005
         - name: MS_TRIALACCOUNT_URL
-          value: trial-account:8020/trialAccount/
+          value: http://trial-account:8020/trialAccount/
          
       #restartPolicy: Always
   strategy:
