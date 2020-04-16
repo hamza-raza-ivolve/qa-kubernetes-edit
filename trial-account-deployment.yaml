@@ -47,7 +47,7 @@ spec:
         - name: SCHEDULING_MAIL
           value: "0 */12 * * *"
         - name: ORCHESTRATOR
-          value: python-app:8002
+          value: http://python-app:8002
         - name: ADMINUSERNAME
           value: admin
         - name: ADMINUSERPASSWORD
