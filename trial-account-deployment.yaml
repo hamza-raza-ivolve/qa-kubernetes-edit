@@ -30,26 +30,30 @@ spec:
         - name: NODE_ENV
           value: development
         - name: ALLOWED_ORIGIN_IP
-          value: "10.81.1.38"
+          value: "10.81.1.89"
         - name: OPENSTACK_KEYSTONE_URL
-          value: "http://10.81.1.120:5000/v3"
+          value: "http://10.81.1.10:5000/v3"
         - name: PORT
           value: "8020"
       #ms-logger serice
-        - name: MS_LOGGER_IP
-          value: ms-logger
-        - name: MS_LOGGER_PORT
-          value: "8012"
-        - name: MS_LOGGER_SECRET_KEY
-          value: BC2B36B81AB89F3B83AD227DCAD56
-        - name: MS_LOGGER_THIS_SERVICE_NAME
-          value: trial-account
-        - name: MS_LOGGER_THIS_SERVICE_IP
-          value: trial-account
-        - name: MS_LOGGER_THIS_SERVICE_PORT
-          value: "8003"
-        - name: LOG_TARGET
-          value: both
+        - name: MONGODB_BASE_URL
+          value: mongodb://10.81.1.89:27017/ms-trialAccount
+        - name: SENDER_USERNAME
+          value: "testingmailivolve@yahoo.com"
+        - name: SENDER_PASSWORD
+          value: password
+        - name: HOST
+          value: "smtp.mail.yahoo.com"
+        - name: SCHEDULING_MAIL
+          value: "0 */12 * * *"
+        - name: ORCHESTRATOR
+          value: python-app:8002
+        - name: ADMINUSERNAME
+          value: admin
+        - name: ADMINUSERPASSWORD
+          value: 8btgYd0CMEOkiylhdEqK4Qfll
+        - name: ADMINUSERPROJECT
+          value: 38f9940f8fcb43fba7e176b8703eb88f
           
       #restartPolicy: Always
   strategy:
