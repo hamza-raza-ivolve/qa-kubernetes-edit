@@ -21,10 +21,10 @@ spec:
         name: trial-account
     spec:
       containers:
-      - image: 10.81.1.68:5000/iam:0.5
+      - image: 10.81.1.68:5000/trial-account:1
         name: trial-account
         ports:
-        - containerPort: 8003
+        - containerPort: 8020
         imagePullPolicy: IfNotPresent
         env:
         - name: NODE_ENV
@@ -34,7 +34,7 @@ spec:
         - name: OPENSTACK_KEYSTONE_URL
           value: "http://10.81.1.120:5000/v3"
         - name: PORT
-          value: "8003"
+          value: "8020"
       #ms-logger serice
         - name: MS_LOGGER_IP
           value: ms-logger
