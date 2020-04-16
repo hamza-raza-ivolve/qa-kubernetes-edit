@@ -10,8 +10,8 @@ metadata:
   name: trial-account
 spec:
   ports:
-  - name: "8003"
-    port: 8003
-    targetPort: 8003
+  - name: "8020"
+    port: 8020
+    targetPort: 8020
   selector:
     name: trial-account
