@@ -36,6 +36,8 @@ spec:
           value: http://usage-report:8006
         - name: EMAILER_BASEURL
           value: http://emailer:8009
+        - name: TENANT_QUOTA_BASEURL
+          value: http://project-quotas:8018
         - name: PORT
           value: "8001"
         - name: KMS_BASEURL
