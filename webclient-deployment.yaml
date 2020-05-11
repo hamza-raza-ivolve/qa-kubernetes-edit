@@ -43,6 +43,8 @@ spec:
           value: "true"
         - name: MONITORING_SOCKET_IP
           value: http://app.ivolve-monitoring.io:30627
+        - name: MS_HYSTAX_IP
+          value: http://hystax:8015
          
       #restartPolicy: Always
   strategy:
