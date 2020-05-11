@@ -37,7 +37,7 @@ spec:
         - name: HYSTAX_EMAIL
           value: sahal.ilyas@ivolve.io
         - name: HYSTAX_PASSWORD
-          value: ktbffh10
+          value: 2cd79c8a662277ee2a21acacf3335744
         - name: MS_LOGGER_IP
           value: ms-logger
         - name: MS_LOGGER_PORT
