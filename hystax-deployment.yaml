@@ -29,15 +29,15 @@ spec:
         - name: NODE_ENV
           value: development
         - name: PORT
-          value: 8015
+          value: "8015"
         - name: PROTOCOL
-          value: http
+          value: "http"
         - name: HYSTAX_IP
-          value: 10.81.1.198
+          value: "10.81.1.198"
         - name: HYSTAX_EMAIL
-          value: "sahal.ilyas@ivolve.io"
+          value: sahal.ilyas@ivolve.io
         - name: HYSTAX_PASSWORD
-          value: "ktbffh10"
+          value: ktbffh10
         - name: MS_LOGGER_IP
           value: ms-logger
         - name: MS_LOGGER_PORT
