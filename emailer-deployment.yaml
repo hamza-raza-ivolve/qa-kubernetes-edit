@@ -35,6 +35,8 @@ spec:
           value: "testingservice9661@gmail.com"
         - name: PORT
           value: "8009"
+        - name: CHANGEPASSWORD_PUBLIC_IP
+          value: http://10.81.1.38:30627
         - name: MS_LOGGER_IP
           value: ms-logger
         - name: MS_LOGGER_PORT
