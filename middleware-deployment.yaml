@@ -38,6 +38,8 @@ spec:
           value: http://emailer:8009
         - name: TENANT_QUOTA_BASEURL
           value: http://project-quotas:8018
+        - name: HYSTAX_BASEURL
+          value: http://hystax:8015
         - name: PORT
           value: "8001"
         - name: KMS_BASEURL
