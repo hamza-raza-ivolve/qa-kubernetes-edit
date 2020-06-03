@@ -37,7 +37,7 @@ spec:
         - name: EMAILER_BASEURL
           value: http://emailer:8009
         - name: TENANT_QUOTA_BASEURL
-          value: http://project-quotas:8018
+          value: http://project-quotas:8018/tenant/quotas
         - name: HYSTAX_BASEURL
           value: http://hystax:8015
         - name: PORT
