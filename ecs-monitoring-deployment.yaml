@@ -35,6 +35,8 @@ spec:
           value: http
         - name: MONASCA_IP
           value: "http://10.81.1.56:8070"  
+        - name: MIDDLEWARE_IP
+          value: http://middleware:8001
         - name: IAM_IP
           value: http://iam:8003
         - name: MONASCA_CPU_TIME
