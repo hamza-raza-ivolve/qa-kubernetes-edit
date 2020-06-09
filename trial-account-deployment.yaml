@@ -49,11 +49,11 @@ spec:
         - name: ORCHESTRATOR
           value: http://python-app:8002
         - name: ADMINUSERNAME
-          value: admin
+          value: 18da298826a91410c572211cd2e83d9c
         - name: ADMINUSERPASSWORD
-          value: 8btgYd0CMEOkiylhdEqK4Qfll
+          value: 1d016ec856d1e120646fc7847f62ba29
         - name: ADMINUSERPROJECT
-          value: 38f9940f8fcb43fba7e176b8703eb88f
+          value: 129ff8be551a0bb1ba06583d3b6bcca9f9fe791ded17f8f1116b8ccdea9627045c2b5965b562e7b8080afb93d2c69368
           
       #restartPolicy: Always
   strategy:
