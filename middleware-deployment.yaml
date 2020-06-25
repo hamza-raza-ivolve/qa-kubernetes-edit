@@ -40,6 +40,8 @@ spec:
           value: http://project-quotas:8018/tenant/quotas
         - name: HYSTAX_BASEURL
           value: http://hystax:8015
+        - name: CUSTOMER_INTEGRATION_BASEURL
+          value: 	http://customer-integration:8020
         - name: PORT
           value: "8001"
         - name: KMS_BASEURL
