@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - image: 10.81.1.50:5000/customer-integration:0.5
-        name: iam
+        name: customer-integration
         ports:
         - containerPort: 8003
         imagePullPolicy: IfNotPresent
