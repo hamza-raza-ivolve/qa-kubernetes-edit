@@ -42,6 +42,8 @@ spec:
           value: http://hystax:8015
         - name: CUSTOMER_INTEGRATION_BASEURL
           value: 	http://customer-integration:8020
+        - name: EGRESS_REPORTING_URL
+          value: http://ntopng-client:8669/egressReporting/
         - name: PORT
           value: "8001"
         - name: KMS_BASEURL
