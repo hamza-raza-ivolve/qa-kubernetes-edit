@@ -10,8 +10,8 @@ metadata:
   name: ntopng-client
 spec:
   ports:
-  - name: "8010"
-    port: 8010
-    targetPort: 8010
+  - name: "8669"
+    port: 8669
+    targetPort: 8669
   selector:
     name: ntopng-client
