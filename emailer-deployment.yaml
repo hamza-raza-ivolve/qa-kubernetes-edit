@@ -28,13 +28,19 @@ spec:
         imagePullPolicy: IfNotPresent
         env:
         - name: EMAIL
-          value: "testingservice69@yahoo.com"
+          value: testemaildcm34@gmail.com
         - name: PASS
-          value: "znabixseefmsmozg"
+          value: dcmtestemail
         - name: TOMAIL
-          value: "testingservice9661@gmail.com"
+          value: testingservice9661@gmail.com
         - name: PORT
           value: "8009"
+        - name: SMTP_HOST
+          value: smtp.gmail.com
+        - name: SMTP_SERVICE
+          value: gmail
+        - name: SMTP_PORT
+          value: "465"
         - name: CHANGEPASSWORD_PUBLIC_IP
           value: http://10.81.1.38:30627
         - name: MS_LOGGER_IP
