@@ -35,6 +35,10 @@ spec:
           value: "http://10.81.1.120:5000/v3"
         - name: PORT
           value: "8003"
+        - name: ADMIN_USERNAME
+          value: sahal
+        - name: ADMIN_PASSWORD
+          value: ktbffh10
       #ms-logger serice
         - name: MS_LOGGER_IP
           value: ms-logger
