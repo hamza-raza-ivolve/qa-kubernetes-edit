@@ -21,7 +21,7 @@ spec:
         name: marketplace-fe
     spec:
       containers:
-      - image: 10.81.1.50:5000/marketplace-fet:2
+      - image: 10.81.1.50:5000/marketplace-fe:2
         name: marketplace-fe
         ports:
         - containerPort: 80
