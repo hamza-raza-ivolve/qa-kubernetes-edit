@@ -40,6 +40,11 @@ spec:
           value: "9292"
         - name: PROTOCOL
           value: http
+        - name: API_GATEWAY
+          value: http://middleware:8001/api/v1/
+        - name: KEY_STONE_PORT
+          value: "5000"
+
           #ms-logger serice
         - name: MS_LOGGER_THIS_SERVICE_NAME
           value: python-app
