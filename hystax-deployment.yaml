@@ -31,13 +31,15 @@ spec:
         - name: PORT
           value: "8015"
         - name: PROTOCOL
-          value: "http"
+          value: http
         - name: HYSTAX_IP
-          value: "10.81.1.198"
+          value: 10.81.1.198
         - name: HYSTAX_EMAIL
           value: sahal.ilyas@ivolve.io
         - name: HYSTAX_PASSWORD
-          value: 2cd79c8a662277ee2a21acacf3335744
+          value: 624a32b16cee388905c77eca779d0e82
+        - name: MS_CUSTOMER_INTEGRATION
+          value: customer-integration:8020
         - name: MS_LOGGER_IP
           value: ms-logger
         - name: MS_LOGGER_PORT
