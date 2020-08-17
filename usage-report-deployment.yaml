@@ -50,12 +50,6 @@ spec:
           value: usage-report
         - name: MS_LOGGER_THIS_SERVICE_PORT
           value: "8006"
-        - name: MS_LOGGER_THIS_SERVICE_NAME
-          value: emailer
-        - name: MS_LOGGER_THIS_SERVICE_IP
-          value: emailer
-        - name: MS_LOGGER_THIS_SERVICE_PORT
-          value: "8009"
         - name: LOG_TARGET
           value: both
         - name: MS_LOGGER_SECRET_KEY
