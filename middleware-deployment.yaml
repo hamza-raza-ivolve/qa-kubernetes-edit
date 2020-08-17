@@ -64,7 +64,7 @@ spec:
           value: "8001"
         - name: LOG_TARGET
           value: both
-        - name: PRICING
+        - name: MS_SETTINGS
           value: http://ms-settings:8005
         - name: MS_TRIALACCOUNT_URL
           value: http://trial-account:8020/trialAccount
