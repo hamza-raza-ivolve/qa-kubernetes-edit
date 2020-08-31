@@ -27,22 +27,28 @@ spec:
         - containerPort: 8009
         imagePullPolicy: IfNotPresent
         env:
-        - name: EMAIL
+       - name: EMAIL
           value: testemaildcm34@gmail.com
         - name: PASS
           value: dcmtestemail
         - name: TOMAIL
           value: testingservice9661@gmail.com
+        - name: ENVIRONMENT_SETUP
+          value: uat
         - name: PORT
           value: "8009"
+        - name: DCM_LINK
+          value: http://10.81.1.50:32485/
+        - name: LOGGER
+          value: true
+        - name: DEBUG
+          value: true
         - name: SMTP_HOST
           value: smtp.gmail.com
         - name: SMTP_SERVICE
           value: gmail
         - name: SMTP_PORT
-          value: "465"
-        - name: CHANGEPASSWORD_PUBLIC_IP
-          value: http://10.81.1.38:30627
+          value: 465
         - name: MS_LOGGER_IP
           value: ms-logger
         - name: MS_LOGGER_PORT
@@ -57,6 +63,7 @@ spec:
           value: "8009"
         - name: LOG_TARGET
           value: both
+
       #restartPolicy: Always
   strategy:
      type: RollingUpdate
