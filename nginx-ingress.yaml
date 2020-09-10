@@ -24,3 +24,15 @@ spec:
       - backend:
              serviceName: monitoring
              servicePort: 8800
+  - host: qa-marketplace-be.ivolve.io       
+    http:                                   
+      paths:                                
+      - backend:                            
+             serviceName: marketplace-be 
+             servicePort: 9100
+  - host: qa-marketplace-fe.ivolve.io 
+    http:                             
+      paths:                           
+      - backend:       
+             serviceName: marketplace-fe 
+             servicePort: 80
