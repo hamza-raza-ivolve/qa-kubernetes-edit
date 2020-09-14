@@ -6,49 +6,41 @@ metadata:
     kompose.version: 1.16.0 (0c01309)
   creationTimestamp: null
   labels:
-    io.kompose.service: emailer
-  name: emailer
+    io.kompose.service: ms-billing
+  name: ms-billing
 spec:
   replicas: 1
   selector:
       matchLabels:
-          name: emailer
+          name: ms-billing
   template:
     metadata:
       creationTimestamp: null
       labels:
-              #io.kompose.service: emailer
-        name: emailer
+              #io.kompose.service: iam
+        name: ms-billing
     spec:
       containers:
-      - image: 10.81.1.68:5000/emailer:0.5
-        name: emailer
+      - image: 10.81.1.50:5000/ms-billing:1
+        name: ms-billing
         ports:
-        - containerPort: 8009
+        - containerPort: 8020
         imagePullPolicy: IfNotPresent
         env:
-        - name: EMAIL
-          value: testemaildcm34@gmail.com
-        - name: PASS
-          value: dcmtestemail
-        - name: TOMAIL
-          value: testingservice9661@gmail.com
-        - name: ENVIRONMENT_SETUP
-          value: uat
         - name: PORT
-          value: "8009"
-        - name: DCM_LINK
-          value: http://10.81.1.50:32485/
-        - name: LOGGER
-          value: "true"
-        - name: DEBUG
-          value: "true"
-        - name: SMTP_HOST
-          value: smtp.gmail.com
-        - name: SMTP_SERVICE
-          value: gmail
-        - name: SMTP_PORT
-          value: "465"
+          value: "8020"
+        - name: NODE_ENV
+          value: development
+        - name: BILLING_URL
+          value: mongodb://10.81.1.50:27017/ms-billing
+        - name: KILLBILL_ENDPOINT
+          value: http://10.81.1.44:8080
+        - name: KILLBILL_ADMIN_CREDENTIAL
+          value: YWRtaW46cGFzc3dvcmQ=
+        - name: KILLBILL_API_SECRET
+          value: andrews
+        - name: KILLBILL_GLOBAL_KEY
+          value: global_APIKEY
         - name: MS_LOGGER_IP
           value: ms-logger
         - name: MS_LOGGER_PORT
@@ -56,14 +48,13 @@ spec:
         - name: MS_LOGGER_SECRET_KEY
           value: BC2B36B81AB89F3B83AD227DCAD56
         - name: MS_LOGGER_THIS_SERVICE_NAME
-          value: emailer
+          value: ms-billing
         - name: MS_LOGGER_THIS_SERVICE_IP
-          value: emailer
+          value: ms-billing
         - name: MS_LOGGER_THIS_SERVICE_PORT
-          value: "8009"
+          value: "8020"
         - name: LOG_TARGET
           value: both
-
       #restartPolicy: Always
   strategy:
      type: RollingUpdate
