@@ -28,7 +28,7 @@ spec:
         imagePullPolicy: IfNotPresent
         env:
         - name: PORT
-          value: "8020"
+          value: "8022"
         - name: NODE_ENV
           value: development
         - name: BILLING_URL
