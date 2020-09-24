@@ -10,8 +10,8 @@ metadata:
   name: ms-billing
 spec:
   ports:
-  - name: "8020"
-    port: 8020
-    targetPort: 8020
+  - name: "8022"
+    port: 8022
+    targetPort: 8022
   selector:
     name: ms-billing
