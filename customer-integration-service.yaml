@@ -10,8 +10,8 @@ metadata:
   name: customer-integration
 spec:
   ports:
-  - name: "8020"
-    port: 8020
-    targetPort: 8020
+  - name: "8023"
+    port: 8023
+    targetPort: 8023
   selector:
     name: customer-integration

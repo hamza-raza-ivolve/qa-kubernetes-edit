@@ -9,7 +9,7 @@ metadata:
     io.kompose.service: monitoring
   name: monitoring
 spec:
-  replicas: 2
+  replicas: 1
   selector:
       matchLabels:
           name: monitoring
