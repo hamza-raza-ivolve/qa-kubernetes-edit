@@ -71,7 +71,7 @@ spec:
         - name: BILLING_URL
           value: http://ms-billing:8022
         - name: MS_CUSTOMER_CONTRACTS_BASEURL
-          value: http://customer-integration:8024
+          value: http://customer-contract:8024
          
       #restartPolicy: Always
   strategy:
