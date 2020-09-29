@@ -70,7 +70,7 @@ spec:
           value: http://trial-account:8020/trialAccount
         - name: BILLING_URL
           value: http://ms-billing:8022
-        - name: MS_CUSTOMER_CONTRACTS_BASEURL
+        - name: MS_CUSTOMER_CONTRACTS
           value: http://customer-contract:8024
          
       #restartPolicy: Always
