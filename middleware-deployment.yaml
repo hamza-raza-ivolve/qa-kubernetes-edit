@@ -72,6 +72,9 @@ spec:
           value: http://ms-billing:8022
         - name: MS_CUSTOMER_CONTRACTS
           value: http://customer-contract:8024
+        - name: CLOUDIAN_BASEURL
+          value: http://cloudian:8021
+
          
       #restartPolicy: Always
   strategy:
