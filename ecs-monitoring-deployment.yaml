@@ -21,7 +21,7 @@ spec:
         name: monitoring
     spec:
       containers:
-      - image: 10.81.1.68:5000/monitoring:7
+      - image: 10.81.1.50:5000/monitoring:7
         name: monitoring
         ports:
         - containerPort: 8800

@@ -29,7 +29,7 @@ spec:
         - name: NODE_ENV
           value: development
         - name: MONGODB_URI
-          value: "mongodb://localhost:27017/ms-project-quotas"
+          value: "mongodb://10.81.1.50:27017/ms-project-quotas"
         - name: PORT
           value: "8018"
       #restartPolicy: Always
