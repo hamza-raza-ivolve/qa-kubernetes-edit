@@ -74,6 +74,8 @@ spec:
           value: http://customer-contract:8024
         - name: CLOUDIAN_BASEURL
           value: http://cloudian:8021
+        - name: KEYCLOAK_BASEURL
+          value: http://keycloak:8030/keycloak
 
          
       #restartPolicy: Always
