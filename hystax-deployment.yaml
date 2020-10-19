@@ -20,7 +20,7 @@ spec:
         name: hystax
     spec:
       containers:
-      - image: 10.81.1.38:5000/middleware:0.5
+      - image: 10.81.1.50:5000/middleware:0.5
         name: hystax
         ports:
         - containerPort: 8015
@@ -40,6 +40,10 @@ spec:
           value: 624a32b16cee388905c77eca779d0e82
         - name: MS_CUSTOMER_INTEGRATION
           value: customer-integration:8020
+        - name: PRICING
+          value: http://ms-settings:8005
+        - name: MS_TRIALACCOUNT_URL
+          value: http://trial-account:8020/trialAccount
         - name: MS_LOGGER_IP
           value: ms-logger
         - name: MS_LOGGER_PORT
@@ -54,10 +58,7 @@ spec:
           value: "8001"
         - name: LOG_TARGET
           value: both
-        - name: PRICING
-          value: http://ms-settings:8005
-        - name: MS_TRIALACCOUNT_URL
-          value: http://trial-account:8020/trialAccount
+       
          
       #restartPolicy: Always
   strategy:

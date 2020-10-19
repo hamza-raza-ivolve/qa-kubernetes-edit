@@ -34,7 +34,7 @@ spec:
         - name: BILLING_URL
           value: mongodb://10.81.1.50:27017/ms-billing
         - name: KILLBILL_ENDPOINT
-          value: http://10.81.1.44:8080
+          value: http://10.81.1.150:8080
         - name: KILLBILL_ADMIN_CREDENTIAL
           value: YWRtaW46cGFzc3dvcmQ=
         - name: KILLBILL_API_SECRET

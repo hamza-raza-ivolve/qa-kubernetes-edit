@@ -32,9 +32,9 @@ spec:
         - name: PORT
           value: "8005"
         - name: MONGODB_URI
-          value: mongodb://10.81.1.68:27017/ms-settings
+          value: mongodb://10.81.1.50:27017/ms-settings
         - name: OpenstackRoutes
-          value: http://10.81.1.10:5000/v3
+          value: http://10.81.1.150:5000/v3
         #restartPolicy: Always
   strategy:
      type: RollingUpdate

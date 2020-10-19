@@ -20,7 +20,7 @@ spec:
         name: project-quotas
     spec:
       containers:
-      - image: 10.81.1.68:5000/project-quotas:0.5
+      - image: 10.81.1.50:5000/project-quotas:0.5
         name: project-quotas
         ports:
         - containerPort: 8018

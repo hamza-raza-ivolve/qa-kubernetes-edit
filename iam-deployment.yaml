@@ -16,12 +16,11 @@ spec:
   template:
     metadata:
       creationTimestamp: null
-      labels:
-              #io.kompose.service: iam
+      labels:        
         name: iam
     spec:
       containers:
-      - image: 10.81.1.68:5000/iam:0.5
+      - image: 10.81.1.50:5000/iam:0.5
         name: iam
         ports:
         - containerPort: 8003
@@ -30,11 +29,11 @@ spec:
         - name: NODE_ENV
           value: development
         - name: ALLOWED_ORIGIN_IP
-          value: "10.81.1.38"
+          value: "10.81.1.50"
         - name: OPENSTACK_KEYSTONE_URL
-          value: "http://10.81.1.120:5000/v3"
+          value: "http://10.81.1.70:5000/v3"
         - name: OPENSTACK_KEYSTONE_URL_JEDDAH
-          value: "http://10.81.1.140:5000/v3"
+          value: "http://10.81.1.150:5000/v3"
         - name: PORT
           value: "8003"
         - name: ADMIN_USERNAME

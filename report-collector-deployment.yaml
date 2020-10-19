@@ -20,7 +20,7 @@ spec:
          name: report-collector
     spec:
       containers:
-      - image: 10.81.1.68:5000/report-collector:96
+      - image: 10.81.1.50:5000/report-collector:96
         name: report-collector
         ports:
         - containerPort: 8099

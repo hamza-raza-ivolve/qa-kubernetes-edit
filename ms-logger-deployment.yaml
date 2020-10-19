@@ -9,7 +9,7 @@ metadata:
     io.kompose.service: ms-logger
   name: ms-logger
 spec:
-  replicas: 2
+  replicas: 1
   selector:
       matchLabels:
           name: ms-logger
@@ -21,7 +21,7 @@ spec:
         name: ms-logger
     spec:
       containers:
-      - image: 10.81.1.68:5000/logger:1
+      - image: 10.81.1.50:5000/logger:1
         name: ms-logger
         ports:
         - containerPort: 8011

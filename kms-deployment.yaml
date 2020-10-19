@@ -21,7 +21,7 @@ spec:
         name: kms
     spec:
       containers:
-      - image: 10.81.1.68:5000/kms:1
+      - image: 10.81.1.50:5000/kms:1
         name: kms
         ports:
         - containerPort: 8010
@@ -32,7 +32,7 @@ spec:
         - name: BARBICAN_VESRION
           value: v1
         - name: BARBICAN_ENDPOINT
-          value:  http://10.81.1.120:9311
+          value:  http://10.81.1.150:9311
           #ms-logger serice
         - name: MS_LOGGER_IP
           value: ms-logger

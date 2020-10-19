@@ -21,7 +21,7 @@ spec:
         name: usage-report
     spec:
       containers:
-      - image: 10.81.1.68:5000/usage-report:1
+      - image: 10.81.1.50:5000/usage-report:1
         name: usage-report
         ports:
         - containerPort: 8006
@@ -30,19 +30,19 @@ spec:
         - name: PORT
           value: "8006"
         - name: DB_LINK
-          value: mongodb://10.81.1.38:27017
+          value: mongodb://10.81.1.50:27017
         - name: OPENSTACK_URL
-          value: http://10.81.1.140
+          value: http://10.81.1.150
         - name: KEYSTONE_PORT_VERSION
           value: 5000/v3
         - name: VOLUME_PORT_VERSION
           value: 8776/v3
         - name: USERNAME
-          value: dev-admin
+          value: sahal
         - name: PASSWORD
-          value: letmein
+          value: ktbffh10
         - name: USER_PROJECT
-          value: fc5bf4b73fd2486f99cd596f429155be
+          value: 5ad86ff5ec9d469ab2910103d6f9edd2
           #ms-logger serice
         - name: MS_LOGGER_THIS_SERVICE_NAME
           value: usage-report

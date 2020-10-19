@@ -30,14 +30,14 @@ spec:
         - name: NODE_ENV
           value: development
         - name: ALLOWED_ORIGIN_IP
-          value: "10.81.1.89"
+          value: "10.81.1.50"
         - name: OPENSTACK_KEYSTONE_URL
-          value: "http://10.81.1.10:5000"
+          value: "http://10.81.1.150:5000"
         - name: PORT
           value: "8020"
       #ms-logger serice
         - name: MONGODB_BASE_URL
-          value: mongodb://10.81.1.89:27017/ms-trialAccount
+          value: mongodb://10.81.1.50:27017/ms-trialAccount
         - name: SENDER_USERNAME
           value: "testingmailivolve@yahoo.com"
         - name: SENDER_PASSWORD

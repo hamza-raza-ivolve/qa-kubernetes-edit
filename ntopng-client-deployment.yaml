@@ -21,7 +21,7 @@ spec:
         name: ntopng-client
     spec:
       containers:
-      - image: 10.81.1.68:5000/ntopng-client:0.5
+      - image: 10.81.1.50:5000/ntopng-client:0.5
         name: ntopng-client
         ports:
         - containerPort: 8669
@@ -30,7 +30,7 @@ spec:
         - name: NODE_ENV
           value: development
         - name: NOVA_URL
-          value: "http://10.81.1.140"
+          value: "http://10.81.1.150"
         - name: NOVA_PORT
           value: "8774"
         - name: PORT

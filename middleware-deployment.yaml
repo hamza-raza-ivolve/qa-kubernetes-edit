@@ -20,7 +20,7 @@ spec:
         name: middleware
     spec:
       containers:
-      - image: 10.81.1.68:5000/middleware:0.5
+      - image: 10.81.1.50:5000/middleware:0.5
         name: middleware
         ports:
         - containerPort: 8001

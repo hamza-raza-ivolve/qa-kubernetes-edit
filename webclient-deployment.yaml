@@ -21,14 +21,14 @@ spec:
         name: webclient
     spec:
       containers:
-      - image: 10.81.1.68:5000/webclient:0.5
+      - image: 10.81.1.50:5000/webclient:0.5
         name: webclient
         ports:
         - containerPort: 80
         imagePullPolicy: IfNotPresent
         env:
         - name: IP_ADDR
-          value: "10.81.1.68"
+          value: "10.81.1.50"
         - name: BEFFE
           value: BEFFE
         - name: ORCH
