@@ -35,6 +35,28 @@ spec:
           value: "iam:8003"
         - name: MIDDLEWARE
           value: "http://qa-middleware.ivolve.io:31907"
+        - name: MS_EMAILER_URL
+          value: http://emailer:8009
+        - name: KILL_BILL
+          value: http://10.81.1.44:8080
+        - name: API_KEY_PRODUCT
+          value: L)~G8dm:t_h7h6y<
+        - name: API_SECRET_PRODUCT
+          value: L)~G8dm:t_h7h6y<
+        - name: API_KEY_INFRASTRUCTURE
+          value: X5#Y5UVm9`p$Vj^P
+        - name: API_SECRET_INFRASTRUCTURE
+          value:  X5#Y5UVm9`p$Vj^P
+        - name: KILLBILL_USER
+          value: admin
+        - name: KILLBILL_PASS
+          value: password
+        - name: OTP_SECRET
+          value: Ahm3d!sWeaRingGr33n$h!rt
+        - name: ADMIN_USERNAME
+          value: sahal
+        - name: ADMIN_PASSWORD
+          value: ktbffh10
           
       #restartPolicy: Always
   strategy:
