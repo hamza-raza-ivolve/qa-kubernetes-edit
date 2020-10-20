@@ -57,7 +57,8 @@ spec:
           value: sahal
         - name: ADMIN_PASSWORD
           value: ktbffh10
-          
+        - name: STATIC_IV
+          value: c82ff58017e7dd2d4c82612ae4d43168  
       #restartPolicy: Always
   strategy:
      type: RollingUpdate
