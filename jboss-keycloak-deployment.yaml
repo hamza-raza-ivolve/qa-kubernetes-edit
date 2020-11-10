@@ -26,7 +26,7 @@ spec:
           - containerPort: 8080
             protocol: TCP
         env:
-          - name: KEYCLOAK_LOGLEVEL
+         - name: KEYCLOAK_LOGLEVEL
             value: "DEBUG"
           - name: KEYCLOAK_USER
             value: "admin"
@@ -34,4 +34,23 @@ spec:
             value: "admin"
           - name: JAVA_OPTS
             value: "-Dkeycloak.profile.feature.upload_scripts=enabled"
+          - name: KEYCLOAK_LOGLEVEL
+            value: DEBUG
+          - name: KEYCLOAK_USER
+            value: admin
+          - name: KEYCLOAK_PASSWORD
+            value: admin
+          - name: DB_VENDOR
+            value: MYSQL
+          - name: DB_DATABASE
+            value: keycloak
+          - name: DB_USER
+            value: keycloak
+          - name: DB_PASSWORD
+            value: admin
+          - name: DB_ADDR
+            value: "10.81.1.44"
+          - name: DB_PORT
+            value: "3306"
+
           
