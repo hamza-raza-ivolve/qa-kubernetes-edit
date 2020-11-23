@@ -76,6 +76,9 @@ spec:
           value: http://cloudian:8021
         - name: KEYCLOAK_BASEURL
           value: http://keycloak:8030/keycloak
+        - name: MS_MARKETPLACE_BE
+          value: http://marketplace-be:9100
+
 
          
       #restartPolicy: Always
