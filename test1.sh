@@ -1,22 +1,22 @@
 #!/bin/bash
-masterip=10.81.1.1000
-cloudianip=10.81.1.1000
-mongodbip=10.81.1.1000
-openstackip=10.81.1.1000
-monascaip=10.81.1.1000
-dcmip=10.81.1.1000
-hystaxip=10.81.1.1000
-openstackkeystoneip=10.81.1.1000
-keystonejeddahip=10.81.1.1000
-barbicanip=10.81.1.1000
-killbillip=10.81.1.1000
-billingip=10.81.1.1000
-killbillendpointip=10.81.1.1000
-logstaship=10.81.1.1000
-novaip=10.81.1.1000
-ntopngip=10.81.1.1000
-rabbitmqip=10.81.1.1000
-webclientip=10.81.1.1000
+masterip=
+cloudianip=
+mongodbip=
+openstackip=
+monascaip=
+dcmip=
+hystaxip=
+openstackkeystoneip=
+keystonejeddahip=
+barbicanip=
+killbillip=
+billingip=
+killbillendpointip=
+logstaship=
+novaip=
+ntopngip=
+rabbitmqip=
+webclientip=
 sed -i "s/cloudian-ip/$cloudianip/" ./cloudian-deployment.yaml
        sed -i "s/mongodb-ip/$mongodbip/" ./customer-contract-deployment.yaml
        sed -i "s/openstack-ip/$openstackip/" ./customer-contract-deployment.yaml
